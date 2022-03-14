@@ -1,0 +1,224 @@
+<!doctype html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio &dash; RG</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="./dist/output.css" rel="stylesheet">
+  <link href="../Portfolio/node_modules/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+
+<html lang="fr" class="dark">
+<body>
+<section id="header">
+  <div class="container">
+    <header>
+      <h1 class="main-heading">Romain</h1>
+      <div class="main-subheading">Frontend developer.<br>Specialist in the <span class="word-highlight" style="width: 51px;"><span class="word">interactive</span></span>.</div>
+    </header>
+  </div>
+</section>
+<div class="Skills mx-12 ">
+  <div class="browser">
+    <div class="browser-bar">
+      <div class="options">
+        <div class="option close"></div>
+        <div class="option minimise"></div>
+        <div class="option expand"></div>
+      </div>
+    </div>
+    <div class="browser-content add-overflow">
+      <!-- HTML -->
+      <div id="html" class="row" onclick=toggleContent('#html')>
+        <p>
+          <i class="fab fa-html5"></i>
+          <span class="heading">HTML</span>
+        </p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <div id="html-trigger" class="arrow">
+          <i class="fas fa-arrow-right rotate0"></i>
+        </div>
+      </div>
+      <!-- HTML Hidden Content -->
+      <div id="html-content" class="hidden-content item-content">
+        <p>Html est un language basique est hyper simple à utiliser.</p>
+      </div>
+
+      <!-- CSS -->
+      <div id="css" class="row" onclick=toggleContent('#css')>
+        <p>
+          <i class="fab fa-css3-alt"></i>
+          <span class="heading">CSS</span>
+        </p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <a id="css-trigger" class="arrow">
+          <i class="fas fa-arrow-right rotate0"></i>
+        </a>
+      </div>
+      <!-- CSS Hidden Content -->
+      <div id="css-content" class="hidden-content item-content">
+        <p>Css est un jeux d'enfant suffit d'étre créatif et le tours est jouer.</p>
+      </div>
+
+      <!-- JavaScript -->
+      <div id="javascript" class="row" onclick=toggleContent('#javascript')>
+        <p>
+          <i class="fab fa-js"></i>
+          <span class="heading">JavaScript</span>
+        </p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div id="javascript-trigger" class="arrow">
+          <i class="fas fa-arrow-right rotate0"></i>
+        </div>
+      </div>
+      <!-- JavaScript Hidden Content -->
+      <div id="javascript-content" class="hidden-content item-content">
+        <p>J'ai trés peu utilisé js pour le moment mais c'est un language fort utile dans tout type de project je recommande.</p>
+      </div>
+
+      <!-- php -->
+      <div id="php" class="row" onclick=toggleContent('#php')>
+        <p>
+          <i class="fab fa-php"></i>
+          <span class="heading">PHP</span>
+        </p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div id="php-trigger" class="arrow">
+          <i class="fas fa-arrow-right rotate0"></i>
+        </div>
+      </div>
+      <!-- php Hidden Content -->
+      <div id="php-content" class="hidden-content item-content">
+        <p>J'ai effectuer pas mal de project à l'aide de php et j'ai pu aquérir quelques compétences.&nbsp;<a class="dark:hover:text-blue-500" href="./Spotify.php">Voir Project</a></p>
+      </div>
+
+      <!-- React -->
+      <div id="react" class="row" onclick=toggleContent('#react')>
+        <p>
+          <i class="fab fa-react"></i>
+          <span class="heading">React</span>
+        </p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div id="react-trigger" class="arrow">
+          <i class="fas fa-arrow-right rotate0"></i>
+        </div>
+      </div>
+      <!-- React Hidden Content -->
+      <div id="react-content" class="hidden-content item-content">
+        <p>Je n'ai pas encore utiliser se framework mais il m'interesse fortement.</p>
+      </div>
+
+      <!-- Git -->
+      <div id="git" class="row" onclick=toggleContent('#git')>
+        <p>
+          <i class="fab fa-git"></i>
+          <span class="heading">Git</span>
+        </p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div id="git-trigger" class="arrow">
+          <i class="fas fa-arrow-right rotate0"></i>
+        </div>
+      </div>
+      <!-- Git Hidden Content -->
+      <div id="git-content" class="hidden-content item-content">
+        <p>Git est trés utils pour ne pas perdre c'est project mais aussi pour s'organiser en équipe 👍.</p>
+      </div>
+
+
+      <br>
+    </div>
+  </div>
+</div>
+<div id="socials">
+  <a href="https://codepen.io/wsengineerrg"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYtJREFUeNrsVrttw0AMlZ0mZWpVzgYy1KSURtAIniDxBIomsDcIsoE2UBYQ7BHcqb1MYJMAD2CI0yWOxMQFH0CcfUdZz4+/SxKDwWAwGKZgMdcP5XmewbIDW4Ft+r7/uBmCQO4Vllps78EaIOr+jSCp9gaWjbicpqq5nKjagcihShU7LokchrsD3x3Yw58QRNXADiykLdgjqNR6H1JsTWFGvOCfgecK1RCLXHMUvpadn4nggu0VlAar3+Tm8gpyXUw1ykdOKqZmpxHiQiR/KB89vuQdqfXJzrPZQ+zDJ0g2YM/shVylMZ9EpsHcVcwr1LcY/F7CS7doIz6y0tXajCML7cd8xp5TC7Fj4fMV2tBaR3zUQ8yreC8qtA5UuvRRC/ExVMVYoSzvPCrYq3yvC1Sx0yBYxiYDn7eyP4Ymj9plITYZ5CT5bvKo3WaoAdei323YhFiLW05L5PSq+IdqhlrP1apx3E0hOAzDKU3Td/h4D/YUqHRs3sdbufJ7NRHbKaoZDAaDwTAfLgIMAFdlx4hMR+sjAAAAAElFTkSuQmCC"></a>
+  <a href="https://github.com/WSEngineerRG"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAACcUlEQVRYR+2WT8gMYRzHv79hzBwcEOp1k4sau7XzEKXcFJJX1HsR5SBJiJSSmyTvwemlcJGTPzeRolzkwPbMztbOS9q3Vvay5d20KbPZmZ9Gs7VN3npmJmvVzGUu3+98P31/v2efJUz4QxPOhwIw74SKBosG8zaQ11/sYNHgUg0IIQ4y8y4ieiSlrAIIl9BSqVTaqOv6UQADx3FuRG/VZrPu4HIhxE0AZ+Kgl8w8T0TbAGxiZgPAAhFVmXkNER0CoAN4FQTBjOu638YNqJo3NkCybfsiEc2qkkU6Zr7f7XZPtVotX9WXacS2bZcBvCCiDapBse4ngCNSyieqvqyAl4nommpIQvdgcXHxpGqLqQEty1phGMYcEZ3ICPgOwH4p5VcVf2pAAMkTrJIzqnnr+/4Bz/O6KsYsgBBCXAVwRSXgD5q/O+Io0LbtPUT0NP5tS8t5Wkp5W9WUqUHLslaapnkLwDHVoFhX6/f7041G44uqLxNg9PFyubxe1/W7AKYVw7wgCI67rhtdi8pPKkAhRHRdnQ3DsFqr1d4AWFapVHZqmnYYwG4AmxPJHwG8B/C40+m8brfbP5TJYmEqwMgjhJhi5lkieiilfD78jhDiEoDrowDMfKfX651rNpv9tGBDfWrA+JDsIKILYRjOaZo2D2AKwD0A2xMgC4PBYF+9Xv80VkAA0V08Q0Tnmfk7EYXMvJWIVica/Axgr+M4H8YN+DsvOs2GYWwBsC6++koTBTiEEUKsBfAsOWJm/rcN/jeAADTLslaZpqmNjtj3/dDzvF6av/jJXc10irMufBZfAZiltVFP0WDRYN4G8vqLHczb4C/7mOIpIkOZIwAAAABJRU5ErkJggg=="></a>
+  <a href="https://twitter.com/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAACjUlEQVRYR+2VPYgTQRTH/y/OsbqcKChRNCCKkEjCxuwUVhbaHRwWorXFCcqpBEu/OLWwEPEaLey0EDlRsPAQbC3EIrNhvCYQEBsLEU6ihpNs9snARYLkYz/u4JCdbnfm/96P/3vzhrDBF21wPqSASSuUOpg6mNSBpPq0B1MHkzqQVP/f9aBwHMfSWv8a5UyhUNhh2/Z1AGeIaBLAIoArtVqtIaU80Ol0hNa6EcbdSA5WKpU9RHTX9/0bWutPgxI4jpMVQjwjouP9+8y8TESBge12u9V6vd4CYL5HrkiAruseAvCGiH4y81ml1AcA3J9BSjkL4OGgrMz8lYjeM/MLpdTTf7WDNJEAHcfZL4RYJCIDuhIEwTyAB57nfVkNLqSU9wFcGgK4zMyznucthIEzMSIBAhCu694jomofQAfAW2Z+GQTBUiaTMX13YUjdjOPTtVrt27jS9vYjAUopdwZBUCaiOSI6GjZJ37n1BSyXy3uFEK8BHI4BB2Ze8H1/ZtwU6I8dyUFTYinlVQC3YgJeU0rdiaKNCohisThpWdZtIroIYCJsMmY2F2lKKaXDauJcEqPZVKlUTmcymSkApwDYYRIy86NWq1VtNpu/w5yPdUl6IinlEQCvAOwOk4yZP/u+P621XgpzPkkP/tW6riuJyPTTsTGl7jDzOaXU47Czb00ATZBSqbTLsqybAM4PcWbFDGal1JMwz1qil0RKOcHMBwFsA7CPiE4AOAlg85BXo8nMM57nvYvjXKwezOVyW7LZrIG6TERyiGsfmXne9/3nUebdsN6MPGZ6gfL5/FbbtvMAtq/++95utxuNRuNH1Isw6nxswLWESAHX0820xEndTR1MHUzqQFJ92oNJHfwDKBTfKdId3rAAAAAASUVORK5CYII="></a>
+</div>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
